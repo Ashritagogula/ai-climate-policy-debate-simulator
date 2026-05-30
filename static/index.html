@@ -4,15 +4,30 @@
     <title>Climate Policy Debate Simulator</title>
 </head>
 <body>
-    <h1>Climate Policy Debate Simulator</h1>
 
-    <input id="topic" placeholder="Enter Topic">
-    <input id="rounds" type="number" value="2">
+<h1>Climate Policy Debate Simulator</h1>
 
-    <button onclick="startDebate()">Start Debate</button>
+<input
+    type="text"
+    id="topic"
+    placeholder="Enter Debate Topic"
+/>
 
-    <pre id="output"></pre>
+<input
+    type="number"
+    id="rounds"
+    min="1"
+    max="5"
+    value="2"
+/>
 
-    <script src="/static/script.js"></script>
+<button onclick="startDebate()">
+    Start Debate
+</button>
+
+<pre id="output"></pre>
+
+<script src="/static/script.js"></script>
+
 </body>
 </html>

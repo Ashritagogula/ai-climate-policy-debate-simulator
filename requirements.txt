@@ -2,7 +2,7 @@ fastapi
 uvicorn
 requests
 python-dotenv
+pydantic
 chromadb
 sentence-transformers
-pydantic
 pytest
